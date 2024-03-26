@@ -1,0 +1,261 @@
+
+.single-service-item {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 40px;
+    transition: .3s;
+    border-bottom: 1px solid #f6f6f6;
+
+    .service-icon i:before {
+        font-size: 50px;
+        color: #FA4729;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 30px 0;
+    }
+
+
+    .service-link {
+        margin-top: 40px;
+        transition: .3s;
+
+        i {
+            font-size: 30px;            
+            &:hover{
+                color: #FA4729;
+            }
+        }
+    }
+
+
+}
+
+.single-service-item::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 4px;
+    background-color: $theme_color;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+
+    
+}
+
+.single-service-item:hover::before {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+// Owl dots Style 
+
+// .service-slider {
+//     position: relative;
+//     .owl-dots {
+//         display: block;
+//         text-align: center;
+//         margin: 0;
+//         bottom: 0;
+//         right: 50px;
+//         button {
+//             width: 15px;
+//             height: 15px;
+//             background: none;
+//             display: inline-block;
+//             margin: 10px;
+//             border: 2px solid #A4C3C6;
+//             border-radius: 50%;
+//         }
+//     }
+// }
+
+// .service-slider .owl-dots button.active {
+//     background: #fff;
+// }
+
+// Owl Nav Style 
+
+.service-slider .owl-nav button.owl-prev,
+.service-slider .owl-nav button.owl-next {
+    background: #eee;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.service-slider .owl-nav button.owl-prev:hover,
+.service-slider .owl-nav button.owl-next:hover {
+    background: #000;
+    color: #fff;
+}
+
+.service-slider .owl-nav i {
+    font-size: 20px;
+}
+
+.service-slider .owl-nav {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    display: flex;
+}
+
+
+.service-slider .owl-dots button.owl-dot span {
+	width: 12px;
+	height: 12px;
+	background: #ddd;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.service-slider .owl-dots button.owl-dot.active span {
+	background: #F35C27;
+}
+
+.service-slider .owl-dots {
+	text-align: center;
+}
+
+
+
+// Service Two 
+
+.service-two{
+    .single-service-area {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+    
+    .service-img {
+        position: relative;
+        z-index: 1;
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+        transition: .3s;
+        object-fit: cover;
+        @media #{$xs} {
+            height: 220px;
+        }
+        img {
+            width: 100%;
+            height: 300px;
+            transition: transform ease-in-out 0.7s;
+            transition-property: all;
+        }
+    }
+    
+    .service-icon {
+        background: #F35C27;
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        width: 90px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+        transition: all 500ms linear;
+        transition-delay: 0.1s;
+        z-index: 2;
+        i:before {
+            font-size: 45px;
+            line-height: 45px;
+            color: #fff;
+        }
+        span {
+            position: relative;
+            display: inline-block;
+            font-size: 45px;
+            color: #fff;
+            transition: all 500ms linear;
+            transition-delay: 0.1s;
+        }
+    }
+ 
+    .single-service-area:hover h5 {
+        color: #F25B26;
+    }
+    
+    .single-service-area:hover .service-icon {
+        background: #182333;
+    }
+   
+    .single-service-area:hover .service-icon span {
+        transform: rotateY(360deg);
+    }
+    
+    
+    .single-service-area:hover .service-img img {
+        transform: scale(1.1) rotate(2deg);
+        transition: all 2s ease-out;
+    }
+    
+    .service-content {
+        padding: 35px 40px 15px;
+        box-shadow: 0 3px 9px -2px #d0cece;
+        h5 {
+            font-size: 24px;
+            font-weight: 500;
+            margin: 15px 0 25px;
+        }
+    }
+    
+    
+    .single-service-area a {
+        text-transform: uppercase;
+        font-size: 18px;
+        color: #0b0d26;
+        margin: 15px 0;
+    }
+    
+    
+    .single-service-area .read-more i:before {
+        font-size: 26px;
+        transition: all 500ms linear;
+    }
+    
+    .single-service-area:hover .read-more i:before {
+        padding-left: 5px;
+        color: #092755;
+    }
+    
+    .service-slider .owl-dots button.owl-dot span {
+        width: 10px;
+        height: 10px;
+        background: #b1adad;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    
+    .service-slider .owl-dots button.owl-dot.active span {
+        width: 35px;
+        height: 10px;
+        background: #F35C27;
+    }
+    
+    .service-slider .owl-dots {
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+

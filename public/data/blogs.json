@@ -1,0 +1,58 @@
+{
+  "blogs": [
+    {
+      "id": "b1",
+      "img": "/assets/img/blog/blog-bg-1.jpg",
+      "author": "Admin",
+      "num_comments": 7,
+      "date": "25 Feb",
+      "heading": "Wallwork brings aircraft technology to medical implants",
+      "title": "There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam."
+    },
+    {
+      "id": "b2",
+      "img": "/assets/img/blog/blog-bg-2.jpg",
+      "author": "Admin",
+      "num_comments": 7,
+      "date": "07 Mar",
+      "heading": "Using automation to combat the impending labour shortage",
+      "title": "There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam."
+    },
+    {
+      "id": "b3",
+      "img": "/assets/img/blog/blog-bg-3.jpg",
+      "author": "Admin",
+      "num_comments": 7,
+      "date": "30 Apr",
+      "heading": "Investment in manufacturing is essential in post-Brexit",
+      "title": "There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam."
+    },
+    {
+      "id": "b4",
+      "img": "/assets/img/blog/blog-bg-4.jpg",
+      "author": "Admin",
+      "num_comments": 7,
+      "date": "25 Feb",
+      "heading": "Wallwork brings aircraft technology to medical implants",
+      "title": "There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam."
+    },
+    {
+      "id": "b5",
+      "img": "/assets/img/blog/blog-bg-5.jpg",
+      "author": "Admin",
+      "num_comments": 7,
+      "date": "07 Mar",
+      "heading": "Using automation to combat the impending labour shortage",
+      "title": "There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam."
+    },
+    {
+      "id": "b6",
+      "img": "/assets/img/blog/blog-bg-6.jpg",
+      "author": "Admin",
+      "num_comments": 7,
+      "date": "30 Apr",
+      "heading": "Investment in manufacturing is essential in post-Brexit",
+      "title": "There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam."
+    }
+  ]
+}

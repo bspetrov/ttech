@@ -1,0 +1,99 @@
+{
+  "menu": [
+    {
+      "id": "m1",
+      "text": "Home",
+      "link": "#",
+      "dropdown": [
+        {
+          "id": "h1",
+          "text": "Home Page 01",
+          "link": "/"
+        },
+        {
+          "id": "h2",
+          "text": "Home Page 02",
+          "link": "/index-2"
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "text": "Pages",
+      "link": "#",
+      "dropdown": [
+        {
+          "id": "p1",
+          "text": "About",
+          "link": "/about"
+        },
+        {
+          "id": "p2",
+          "text": "Services",
+          "link": "/services"
+        },
+        {
+          "id": "p3",
+          "text": "Team",
+          "link": "/team"
+        },
+        {
+          "id": "p4",
+          "text": "FAQs",
+          "link": "/faq"
+        },
+        {
+          "id": "p5",
+          "text": "Pricing",
+          "link": "/pricing"
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "text": "Services",
+      "link": "#",
+      "dropdown": []
+    },
+    {
+      "id": "m4",
+      "text": "Projects",
+      "link": "#",
+      "dropdown": [
+        {
+          "id": "c1",
+          "text": "Projects",
+          "link": "/projects"
+        },
+        {
+          "id": "c2",
+          "text": "Project Details",
+          "link": "/project/p1"
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "text": "Blogs",
+      "link": "#",
+      "dropdown": [
+        {
+          "id": "b1",
+          "text": "Blogs",
+          "link": "/blog"
+        },
+        {
+          "id": "b2",
+          "text": "Blog Details",
+          "link": "/blog/b1"
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "text": "Contact Us",
+      "link": "/contact",
+      "dropdown": []
+    }
+  ]
+}

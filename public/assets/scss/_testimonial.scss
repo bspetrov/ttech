@@ -1,0 +1,145 @@
+/* Testimonial Section 
+============== */
+
+.author-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.author-thumb img {
+    width: 70px !important;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.author-desc {
+	padding-left: 20px;
+	h5 {
+		font-size: 20px;
+	}
+	span {
+		font-size: 15px;
+		color: #898a9c;
+	}
+}
+
+
+.single-testimonial-item {
+	background: #fff;
+	padding: 65px 50px 70px;
+	position: relative;
+	z-index: 1;
+	margin-top: 50px;
+	box-shadow: 0 3px 9px -2px #d0cece;
+	border-bottom: 1px solid #f6f6f6;
+	transition: .3s;
+	p {
+		margin-bottom: 50px;
+		font-size: 17px;
+	}
+}
+
+
+
+.testimonial-icon i {
+	font-size: 25px;
+	background: #F35C27;
+	padding: 15px;
+	position: absolute;
+	top: -20px;
+	color: #fff;
+	z-index: 9;
+}
+
+.testimonial-area .owl-dots button.owl-dot span {
+	width: 10px;
+	height: 10px;
+	background: #ddd;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.testimonial-area .owl-dots button.owl-dot.active span {
+	width: 35px;
+	height: 10px;
+	background: #F35C27;
+}
+
+.testimonial-area .testimonial-carousel .owl-dots {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.single-testimonial-item::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 4px;
+    background-color: $theme_color;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+
+    
+}
+
+.single-testimonial-item:hover::before {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+// Testimonial Two 
+
+.single-testimonial-wrap {
+    text-align: center;
+}
+
+.testimonial-area-2 {
+	background-image: url(../img/testimonial/testimonial-bg.jpg);
+	position: relative;
+}
+
+.single-testimonial-wrap img {
+    width: 90px !important;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.single-testimonial-wrap p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 35px;
+	@media #{$xs} {
+		font-size: 16px;
+		line-height: 26px;
+	}
+}
+
+.single-testimonial-wrap i {
+    font-size: 70px;
+    color: #FA4729;
+}
+
+.testimonial-avatar {
+    margin-top: 40px;
+}
+
+.single-testimonial-wrap h4 {
+    color: #fff;
+    font-size: 18px;
+	margin-top: 20px;
+}
+
+.single-testimonial-wrap h4 span {
+    font-size: 90%;
+    display: block;
+    margin: 5px 0;
+    opacity: .7;
+}
