@@ -45,13 +45,16 @@ const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
             </p>
             <p>
               <i className="las la-envelope-open"></i>
-              <span>ptenev@tenevtech.com</span>
+              <span>tenevtech@gmail.com</span>
             </p>
           </div>
         </div>
       </div>
 
-      <div className={`offcanvas-overly ${showOffcanvas ? "active" : ""}`} onClick={() => setShowOffcanvas((p) => !p)}></div>
+      <div
+        className={`offcanvas-overly ${showOffcanvas ? "active" : ""}`}
+        onClick={() => setShowOffcanvas((p) => !p)}
+      ></div>
     </React.Fragment>
   );
 };

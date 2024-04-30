@@ -2,98 +2,62 @@
   "menu": [
     {
       "id": "m1",
-      "text": "Home",
-      "link": "#",
-      "dropdown": [
-        {
-          "id": "h1",
-          "text": "Home Page 01",
-          "link": "/"
-        },
-        {
-          "id": "h2",
-          "text": "Home Page 02",
-          "link": "/index-2"
-        }
-      ]
+      "text": "Начало",
+      "link": "#"
     },
     {
       "id": "m2",
-      "text": "Pages",
-      "link": "#",
-      "dropdown": [
-        {
-          "id": "p1",
-          "text": "About",
-          "link": "/about"
-        },
-        {
-          "id": "p2",
-          "text": "Services",
-          "link": "/services"
-        },
-        {
-          "id": "p3",
-          "text": "Team",
-          "link": "/team"
-        },
-        {
-          "id": "p4",
-          "text": "FAQs",
-          "link": "/faq"
-        },
-        {
-          "id": "p5",
-          "text": "Pricing",
-          "link": "/pricing"
-        }
-      ]
+      "text": "Услуги",
+      "link": "/services"
     },
     {
       "id": "m3",
-      "text": "Services",
-      "link": "#",
-      "dropdown": []
-    },
-    {
-      "id": "m4",
-      "text": "Projects",
-      "link": "#",
+      "text": "Металообработка",
+      "link": "/services",
       "dropdown": [
         {
           "id": "c1",
-          "text": "Projects",
+          "text": "Машинни елементи",
           "link": "/projects"
         },
         {
           "id": "c2",
-          "text": "Project Details",
+          "text": "Други",
+          "link": "/project/p1"
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "text": "Дървообработка",
+      "link": "/services",
+      "dropdown": [
+        {
+          "id": "c1",
+          "text": "Плотове за маси",
+          "link": "/projects"
+        },
+        {
+          "id": "c2",
+          "text": "Крака за маси",
+          "link": "/project/p1"
+        },
+        {
+          "id": "c3",
+          "text": "Готови маси",
+          "link": "/project/p1"
+        },
+        {
+          "id": "c4",
+          "text": "Други",
           "link": "/project/p1"
         }
       ]
     },
     {
       "id": "m5",
-      "text": "Blogs",
-      "link": "#",
-      "dropdown": [
-        {
-          "id": "b1",
-          "text": "Blogs",
-          "link": "/blog"
-        },
-        {
-          "id": "b2",
-          "text": "Blog Details",
-          "link": "/blog/b1"
-        }
-      ]
-    },
-    {
-      "id": "m6",
-      "text": "Contact Us",
-      "link": "/contact",
-      "dropdown": []
+      "text": "За нас",
+      "link": "/services"
     }
   ]
 }

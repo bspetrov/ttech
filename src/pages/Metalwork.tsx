@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderArea, Project1, Breadcrumb } from "../components";
+import { HeaderArea, Project1, Breadcrumb, MainProject } from "../components";
 
 const Metalwork: React.FC = () => {
   return (

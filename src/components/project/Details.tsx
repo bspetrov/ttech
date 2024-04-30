@@ -1,5 +1,7 @@
 import React from "react";
 import useGetData from "../../hooks/useGetData";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 interface details {
   id: string;
@@ -17,19 +19,43 @@ interface RequestObject {
 }
 
 const Details: React.FC = () => {
-  const request: RequestObject = useGetData({}, "/data/project-details.json");
-  const details = request.details;
+  const routePath = location.pathname.split("/");
+  const currentPath = routePath[2];
+  let request: undefined | RequestObject;
+  let title: string;
+
+  if (currentPath === "table-tops") {
+    request = useGetData({}, "/data/project-details.json");
+    title = "Плотове за маси";
+  } else if (currentPath === "table-legs") {
+    request = useGetData({}, "/data/project-details.json");
+    title = "Крака за маси";
+  } else if (currentPath === "finished-tables") {
+    request = useGetData({}, "/data/project-details.json");
+    title = "Готови маси";
+  } else if (currentPath === "machine-elements") {
+    request = useGetData({}, "/data/project-details.json");
+    title = "Машинни елементи";
+  } else if (currentPath === "others") {
+    request = useGetData({}, "/data/project-details.json");
+    title = "Други";
+  }
+  const details = (request as RequestObject).details;
+
   return (
     <React.Fragment>
       <div className="project-single-section section-padding pb-0">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h3>Поръчкови плотове за маси</h3>
+              <h3>{title}</h3>
               <p>
-                Нашите екип изработва всяка поръчка с грижа и внимание към детайла, използвайки най-качествените видове дърво. 
-                В нашия асортимент ще откриете разнообразие от стилове, размери и обработки, които да отговарят на вашите индивидуални предпочитания. 
-                </p>
+                Нашите екип изработва всяка поръчка с грижа и внимание към
+                детайла, използвайки най-качествените видове дърво. В нашия
+                асортимент ще откриете разнообразие от стилове, размери и
+                обработки, които да отговарят на вашите индивидуални
+                предпочитания.
+              </p>
               <div className="row">
                 <div className="col-lg-8">
                   <div className="project-feature-img mt-40">
@@ -69,7 +95,9 @@ const Details: React.FC = () => {
                       <span>
                         {details?.materials?.length > 0 &&
                           details?.materials.map((material, i) =>
-                            i === details?.materials?.length - 1 ? material : material + ", "
+                            i === details?.materials?.length - 1
+                              ? material
+                              : material + ", "
                           )}
                       </span>
                     </p>
@@ -87,47 +115,65 @@ const Details: React.FC = () => {
           <div className="row">
             <div className="col-lg-4 col-md-4">
               <div className="port-img mt-10 mb-50">
-                <img src={details?.img2} alt="" />
+                <Zoom>
+                  <img src={details?.img2} alt="" />
+                </Zoom>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="port-img mt-10 mb-50">
-                <img src={details?.img3} alt="" />
+                <Zoom>
+                  <img src={details?.img2} alt="" />
+                </Zoom>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="port-img mt-10 mb-50">
-                <img src={details?.img3} alt="" />
+                <Zoom>
+                  <img src={details?.img2} alt="" />
+                </Zoom>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="port-img mt-10 mb-50">
-                <img src={details?.img3} alt="" />
+                <Zoom>
+                  <img src={details?.img2} alt="" />
+                </Zoom>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="port-img mt-10 mb-50">
-                <img src={details?.img3} alt="" />
+                <Zoom>
+                  <img src={details?.img2} alt="" />
+                </Zoom>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="port-img mt-10 mb-50">
-                <img src={details?.img3} alt="" />
+                <Zoom>
+                  <img src={details?.img2} alt="" />
+                </Zoom>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="port-img mt-10 mb-50">
-                <img src={details?.img3} alt="" />
+                <Zoom>
+                  <img src={details?.img2} alt="" />
+                </Zoom>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="port-img mt-10 mb-50">
-                <img src={details?.img3} alt="" />
+                <Zoom>
+                  <img src={details?.img2} alt="" />
+                </Zoom>
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
               <div className="port-img mt-10 mb-50">
-                <img src={details?.img3} alt="" />
+                <Zoom>
+                  <img src={details?.img2} alt="" />
+                </Zoom>
               </div>
             </div>
           </div>

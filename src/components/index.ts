@@ -26,6 +26,7 @@ export { default as HeroArea } from "./heroArea/HeroArea";
 
 export { default as Project1 } from "./project/Project1";
 export { default as Details } from "./project/Details";
+export { default as MainProject } from "./project/MainProject";
 
 export { default as Service1 } from "./service/Service1";
 export { default as Service2 } from "./service/Service2";

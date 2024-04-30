@@ -14,9 +14,14 @@ interface RequestObject {
   projects: ProjectItem[];
 }
 const Project1: React.FC<Props> = ({ type }: { type: boolean }) => {
-  const routePath = location.pathname.split('/')
-  const currentPath = routePath[2]
-  const request: RequestObject = useGetData({}, currentPath === 'woodwork' ? "/data/woodwork-projects.json" : "/data/metalwork-projects.json");
+  const routePath = location.pathname.split("/");
+  const currentPath = routePath[2];
+  const request: RequestObject = useGetData(
+    {},
+    currentPath === "woodwork"
+      ? "/data/woodwork-projects.json"
+      : "/data/metalwork-projects.json"
+  );
   const projects = request.projects;
 
   return (

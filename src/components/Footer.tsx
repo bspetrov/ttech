@@ -11,24 +11,19 @@ const Footer: React.FC = () => {
               <a href="/" className="logo">
                 <img src="/assets/img/logo-white.png" alt="industrify-logo" />
               </a>
-              <p>
-                Professionals with passion! <br />
-              </p>
             </div>
             <div className="col-lg-2 col-md-6">
-              <h5>Office</h5>
-              <p>
-              1225, ul. "Nesho Bonchev" 13, 1225 Sofia
-              </p>
+              <h5>Офис</h5>
+              <p>1225, ul. "Nesho Bonchev" 13, 1225 Sofia</p>
               <div className="company-email">
-                <a href="#">ptenev@tenevtech.com</a>
+                <a href="#">tenevtech@gmail.com</a>
               </div>
               <div className="phone-number">
                 <p>+18-4675826</p>
               </div>
             </div>
             <div className="col-lg-2 offset-lg-1 col-md-6 com-sm-12">
-              <h5>Links</h5>
+              <h5>Линкове</h5>
               <ul>
                 <li>
                   <Link to="/about">Начало</Link>

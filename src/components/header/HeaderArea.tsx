@@ -53,7 +53,7 @@ const HeaderArea: React.FC = () => {
                         id="navbarSupportedContent"
                       >
                         <ul className="navbar-nav m-auto">
-                        <li className="nav-item smooth-menu">
+                          <li className="nav-item smooth-menu">
                             <Link
                               to="/"
                               onMouseEnter={() => setActiveMenu("contact")}
@@ -90,10 +90,12 @@ const HeaderArea: React.FC = () => {
                             </Link>
                             <ul className="sub-menu">
                               <li>
-                                <Link to="/projects">Машинни елементи</Link>
+                                <Link to="/project/machine-elements">
+                                  Машинни елементи
+                                </Link>
                               </li>
                               <li>
-                                <Link to="/project/p1">Други</Link>
+                                <Link to="/project/others">Други</Link>
                               </li>
                             </ul>
                           </li>
@@ -111,16 +113,22 @@ const HeaderArea: React.FC = () => {
                             </Link>
                             <ul className="sub-menu">
                               <li>
-                                <Link to="/projects">Плотове за маси</Link>
+                                <Link to="/project/table-tops">
+                                  Плотове за маси
+                                </Link>
                               </li>
                               <li>
-                                <Link to="/project/p1">Крака за маси</Link>
+                                <Link to="/project/table-legs">
+                                  Крака за маси
+                                </Link>
                               </li>
                               <li>
-                                <Link to="/project/p1">Готови маси</Link>
+                                <Link to="/project/finished-tables">
+                                  Готови маси
+                                </Link>
                               </li>
                               <li>
-                                <Link to="/project/p1">Други</Link>
+                                <Link to="/project/others">Други</Link>
                               </li>
                             </ul>
                           </li>

@@ -13,7 +13,7 @@ import {
   FAQ,
   Pricing,
   Woodwork,
-  Metalwork
+  Metalwork,
 } from "../pages";
 import { ErrorPage } from "../components";
 import { Default } from "../Layout";
@@ -65,7 +65,6 @@ export const router = createBrowserRouter([
       },
       {
         path: "/projects/",
-        element: <Projects />,
         errorElement: <ErrorPage />,
         children: [
           {
@@ -77,8 +76,8 @@ export const router = createBrowserRouter([
             path: "metalwork",
             element: <Metalwork />,
             errorElement: <ErrorPage />,
-          }
-        ]
+          },
+        ],
       },
       {
         path: "/project/:slug",

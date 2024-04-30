@@ -8,9 +8,9 @@ const HeaderTop: React.FC = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12">
               <div className="contact-info">
-                <i className="las la-envelope"></i> ptenev@tenevtech.com |
-                <i className="las la-map-marker"></i>1225, ul. "Nesho Bonchev" 13, 1225
-                Sofia
+                <i className="las la-envelope"></i> tenevtech@gmail.com |
+                <i className="las la-map-marker"></i>1225, ul. "Nesho Bonchev"
+                13, 1225 Sofia
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 text-end">

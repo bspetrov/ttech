@@ -724,7 +724,7 @@ input.form-control {
 }
 
 .gray-bg {
-  background: #dee2e6
+  background: #dee2e6;
 }
 
 .sky-bg {
@@ -1672,7 +1672,9 @@ input.form-control {
 }
 
 .header-area .logo {
-  margin-top: 10px;
+  margin-top: 25px;
+  width: 198px;
+  height: 64px;
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3823,7 +3825,7 @@ ul.team-social li a {
 }
 
 .breadcrumb-area {
-  background: url(/assets/img/breadcrumb/bread-bg.jpg);
+  background: url(/assets/img/breadcrumb/bcumb.jpg);
   display: flex;
   align-items: center;
   justify-content: center;

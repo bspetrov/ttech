@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "id": "p1",
+      "id": "machine-elements",
       "title": "Машинни елементи"
     },
     {
-      "id": "p2",
+      "id": "others",
       "title": "Други"
     }
   ]

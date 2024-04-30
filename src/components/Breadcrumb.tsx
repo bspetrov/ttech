@@ -20,11 +20,12 @@ function generateBreadcrumbs(routePath: string): string {
     return "Крака за маси";
   } else if (route.length > 2 && route[2] === "finished-tables") {
     return "Готови маси";
+  } else if (route.length > 2 && route[2] === "machine-elements") {
+    return "Машинни елементи";
   } else if (route.length > 2 && route[2] === "others") {
     return "Други";
-  } 
-  
-  
+  }
+
   const pathName = currPath.charAt(0).toUpperCase() + currPath.slice(1);
 
   return idSlug ? pathName + " Details" : pathName;
