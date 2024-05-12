@@ -5,9 +5,7 @@ import "react-medium-image-zoom/dist/styles.css";
 
 interface details {
   id: string;
-  img1: string;
-  img2: string;
-  img3: string;
+  images: string[];
   serviceType: string;
   category: string;
   time: string;
@@ -25,19 +23,22 @@ const Details: React.FC = () => {
   let title: string;
 
   if (currentPath === "table-tops") {
-    request = useGetData({}, "/data/project-details.json");
+    request = useGetData({}, "/data/project-details-table-tops.json");
     title = "Плотове за маси";
   } else if (currentPath === "table-legs") {
-    request = useGetData({}, "/data/project-details.json");
+    request = useGetData({}, "/data/project-details-table-legs.json");
     title = "Крака за маси";
   } else if (currentPath === "finished-tables") {
-    request = useGetData({}, "/data/project-details.json");
+    request = useGetData({}, "/data/project-details-finished-tables.json");
     title = "Готови маси";
   } else if (currentPath === "machine-elements") {
     request = useGetData({}, "/data/project-details.json");
     title = "Машинни елементи";
+  } else if (currentPath === "chairs") {
+    request = useGetData({}, "/data/project-details-chairs.json");
+    title = "Столове";
   } else if (currentPath === "others") {
-    request = useGetData({}, "/data/project-details.json");
+    request = useGetData({}, "/data/project-details-woodwork-others.json");
     title = "Други";
   }
   const details = (request as RequestObject).details;
@@ -59,7 +60,7 @@ const Details: React.FC = () => {
               <div className="row">
                 <div className="col-lg-8">
                   <div className="project-feature-img mt-40">
-                    <img src={details?.img1} alt="" />
+                    <img src={details?.images[0]} alt="" />
                   </div>
                   <div className="project-overview">
                     <h4>Project Overview</h4>
@@ -113,69 +114,15 @@ const Details: React.FC = () => {
             <div className="col-lg-8"></div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-4">
-              <div className="port-img mt-10 mb-50">
-                <Zoom>
-                  <img src={details?.img2} alt="" />
-                </Zoom>
+            {details?.images.map((img, idx) => (
+              <div className="col-lg-4 col-md-4">
+                <div className="port-img mt-10 mb-50">
+                  <Zoom>
+                    <img key={idx} src={img} alt="" />
+                  </Zoom>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="port-img mt-10 mb-50">
-                <Zoom>
-                  <img src={details?.img2} alt="" />
-                </Zoom>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="port-img mt-10 mb-50">
-                <Zoom>
-                  <img src={details?.img2} alt="" />
-                </Zoom>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="port-img mt-10 mb-50">
-                <Zoom>
-                  <img src={details?.img2} alt="" />
-                </Zoom>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="port-img mt-10 mb-50">
-                <Zoom>
-                  <img src={details?.img2} alt="" />
-                </Zoom>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="port-img mt-10 mb-50">
-                <Zoom>
-                  <img src={details?.img2} alt="" />
-                </Zoom>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="port-img mt-10 mb-50">
-                <Zoom>
-                  <img src={details?.img2} alt="" />
-                </Zoom>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="port-img mt-10 mb-50">
-                <Zoom>
-                  <img src={details?.img2} alt="" />
-                </Zoom>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="port-img mt-10 mb-50">
-                <Zoom>
-                  <img src={details?.img2} alt="" />
-                </Zoom>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

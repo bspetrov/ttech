@@ -26,10 +26,10 @@ const Footer: React.FC = () => {
               <h5>Линкове</h5>
               <ul>
                 <li>
-                  <Link to="/about">Начало</Link>
+                  <Link to="/">Начало</Link>
                   <Link to="/services">Услуги</Link>
-                  <Link to="/projects">Металообработка</Link>
-                  <Link to="/pricing">Дървообработка</Link>
+                  <Link to="/projects/metalwork">Металообработка</Link>
+                  <Link to="/projects/woodwork">Дървообработка</Link>
                   <Link to="/about">За нас</Link>
                 </li>
               </ul>

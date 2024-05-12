@@ -128,6 +128,9 @@ const HeaderArea: React.FC = () => {
                                 </Link>
                               </li>
                               <li>
+                                <Link to="/project/chairs">Столове</Link>
+                              </li>
+                              <li>
                                 <Link to="/project/others">Други</Link>
                               </li>
                             </ul>

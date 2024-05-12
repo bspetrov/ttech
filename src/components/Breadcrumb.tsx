@@ -18,6 +18,8 @@ function generateBreadcrumbs(routePath: string): string {
     return "Плотове за маси";
   } else if (route.length > 2 && route[2] === "table-legs") {
     return "Крака за маси";
+  } else if (route.length > 2 && route[2] === "chairs") {
+    return "Столове";
   } else if (route.length > 2 && route[2] === "finished-tables") {
     return "Готови маси";
   } else if (route.length > 2 && route[2] === "machine-elements") {

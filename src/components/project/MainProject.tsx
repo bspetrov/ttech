@@ -32,6 +32,10 @@ const MainProject: React.FC<Props> = ({
       title: "Готови Маси",
     },
     {
+      id: "chairs",
+      title: "Столове",
+    },
+    {
       id: "others",
       title: "Други",
     },
