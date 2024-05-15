@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": "table-tops",
+      "title": "Плотове за маси"
+    },
+    {
+      "id": "table-legs",
+      "title": "Крака за маси"
+    },
+    {
+      "id": "finished-tables",
+      "title": "Готови Маси"
+    },
+    {
+      "id": "others",
+      "title": "Други"
+    }
+  ]
+}
