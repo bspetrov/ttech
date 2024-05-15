@@ -54,7 +54,21 @@ const HeroArea: React.FC<Props> = ({ type }) => {
                     <div
                       className="col-lg-12 wow fadeInUp animated"
                       data-wow-delay=".2s"
-                    ></div>
+                    >
+                      <div className="section-title col-12 col-lg-6">
+                        <h1>
+                          {item?.motive?.m1}
+                          <br />
+                          <b>{item?.motive?.m2}</b>
+                        </h1>
+                        <p>
+                          {item?.title?.t1}
+                          <br />
+                          {item?.title?.t2}
+                        </p>
+                    </div>
+
+                    </div>
                   </div>
                 </div>
               </div>

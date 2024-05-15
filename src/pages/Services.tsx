@@ -13,8 +13,8 @@ const Services: React.FC = () => {
       <HeaderArea />
       <Breadcrumb />
       <Service3 />
-      {/* <ProjectCounter type={true} /> */}
-      {/* <Testimonial1 /> */}
+      <ProjectCounter type={true} />
+      <Testimonial1 />
     </React.Fragment>
   );
 };
