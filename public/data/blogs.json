@@ -2,7 +2,7 @@
   "blogs": [
     {
       "id": "b1",
-      "img": "/assets/img/blog/blog-bg-1.jpg",
+      "img": "/ttech/assets/img/blog/blog-bg-1.jpg",
       "author": "Admin",
       "num_comments": 7,
       "date": "25 Feb",
@@ -11,7 +11,7 @@
     },
     {
       "id": "b2",
-      "img": "/assets/img/blog/blog-bg-2.jpg",
+      "img": "/ttech/assets/img/blog/blog-bg-2.jpg",
       "author": "Admin",
       "num_comments": 7,
       "date": "07 Mar",
@@ -20,7 +20,7 @@
     },
     {
       "id": "b3",
-      "img": "/assets/img/blog/blog-bg-3.jpg",
+      "img": "/ttech/assets/img/blog/blog-bg-3.jpg",
       "author": "Admin",
       "num_comments": 7,
       "date": "30 Apr",
@@ -29,7 +29,7 @@
     },
     {
       "id": "b4",
-      "img": "/assets/img/blog/blog-bg-4.jpg",
+      "img": "/ttech/assets/img/blog/blog-bg-4.jpg",
       "author": "Admin",
       "num_comments": 7,
       "date": "25 Feb",
@@ -38,7 +38,7 @@
     },
     {
       "id": "b5",
-      "img": "/assets/img/blog/blog-bg-5.jpg",
+      "img": "/ttech/assets/img/blog/blog-bg-5.jpg",
       "author": "Admin",
       "num_comments": 7,
       "date": "07 Mar",
@@ -47,7 +47,7 @@
     },
     {
       "id": "b6",
-      "img": "/assets/img/blog/blog-bg-6.jpg",
+      "img": "/ttech/assets/img/blog/blog-bg-6.jpg",
       "author": "Admin",
       "num_comments": 7,
       "date": "30 Apr",

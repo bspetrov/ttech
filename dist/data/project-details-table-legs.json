@@ -2,12 +2,12 @@
   "details": {
     "id": "table-legs",
     "images": [
-      "/assets/img/project/table-legs-1.JPG",
-      "/assets/img/project/table-legs-2.JPG",
-      "/assets/img/project/table-legs-3.JPG",
-      "/assets/img/project/table-legs-4.JPG",
-      "/assets/img/project/table-legs-5.JPG",
-      "/assets/img/project/table-legs-6.JPG"
+      "/ttech/assets/img/project/table-legs-1.JPG",
+      "/ttech/assets/img/project/table-legs-2.JPG",
+      "/ttech/assets/img/project/table-legs-3.JPG",
+      "/ttech/assets/img/project/table-legs-4.JPG",
+      "/ttech/assets/img/project/table-legs-5.JPG",
+      "/ttech/assets/img/project/table-legs-6.JPG"
     ],
     "serviceType": "Дървообработка",
     "category": "Крака за маси",

@@ -25,7 +25,7 @@ interface RequestObject {
 }
 
 const HeroArea: React.FC<Props> = ({ type }) => {
-  const request: RequestObject = useGetData({}, "/data/banner.json");
+  const request: RequestObject = useGetData({}, "/ttech/data/banner.json");
   const banner = request.banner;
   return (
     <React.Fragment>

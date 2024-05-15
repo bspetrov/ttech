@@ -10,7 +10,7 @@ const About1: React.FC = () => {
             data-wow-delay=".6s"
           >
             <div className="about-img">
-              <img src="/assets/img/about/about.png" alt="" />
+              <img src="/ttech/assets/img/about/about.png" alt="" />
             </div>
           </div>
           <div

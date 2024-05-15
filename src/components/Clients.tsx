@@ -10,7 +10,7 @@ interface RequestObject {
   clients: ClientItem[];
 }
 const Clients: React.FC = () => {
-  const request: RequestObject = useGetData({}, "/data/clients.json");
+  const request: RequestObject = useGetData({}, "/ttech/data/clients.json");
   const clients = request.clients;
 
   return (

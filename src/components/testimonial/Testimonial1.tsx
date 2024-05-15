@@ -18,7 +18,7 @@ interface RequestObject {
 }
 
 const Testimonial1: React.FC = () => {
-  const request: RequestObject = useGetData({}, "/data/testimonials.json");
+  const request: RequestObject = useGetData({}, "/ttech/data/testimonials.json");
   const testimonials = request.testimonials;
 
   return (

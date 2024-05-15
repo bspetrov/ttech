@@ -21,7 +21,7 @@ const ChooseUs: React.FC = () => {
             </div>
             <div className="col-xl-8 col-lg-8">
               <div className="choose-us-wrap">
-                <img src="/assets/img/choose-us.jpg" alt="" />
+                <img src="/ttech/assets/img/choose-us.jpg" alt="" />
                 <div className="pop-up-video">
                   <div
                     className="video-play-btn"

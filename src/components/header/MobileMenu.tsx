@@ -23,7 +23,7 @@ interface MobileMenuType {
 }
 
 const MobileMenu = ({ showNav, setShowNav }: MobileMenuType) => {
-  const request: RequestObject = useGetData({}, "/data/menu.json");
+  const request: RequestObject = useGetData({}, "/ttech/data/menu.json");
   const menu = request.menu;
   return (
     <div className={`mobile-nav  ${showNav ? "active" : ""}`}>

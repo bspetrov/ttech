@@ -3,7 +3,7 @@ import React from "react";
 const Author: React.FC = () => {
   return (
     <div className="author-profile">
-      <img src="/assets/img/client-img.jpg" alt="" />
+      <img src="/ttech/assets/img/client-img.jpg" alt="" />
       <div className="author-info">
         <h6>Harvert Milan</h6>
         <p>

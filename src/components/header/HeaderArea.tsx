@@ -26,7 +26,7 @@ const HeaderArea: React.FC = () => {
                 <div className="col-lg-3">
                   <div className="logo">
                     <Link className="navbar-brand" to="/">
-                      <img src="/assets/img/logo.png" alt="" />
+                      <img src="/ttech/assets/img/logo.png" alt="" />
                     </Link>
                   </div>
                 </div>

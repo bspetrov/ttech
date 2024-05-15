@@ -71,7 +71,7 @@ const Experience: React.FC = () => {
               data-wow-delay=".4s"
             >
               <div className="about-bg text-end">
-                <img src="/assets/img/about/about-3.jpg" alt="" />
+                <img src="/ttech/assets/img/about/about-3.jpg" alt="" />
               </div>
             </div>
           </div>

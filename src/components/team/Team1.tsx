@@ -15,7 +15,7 @@ interface RequestObject {
 }
 
 const Team1: React.FC<Props> = ({ type }) => {
-  const request: RequestObject = useGetData({}, "/data/team.json");
+  const request: RequestObject = useGetData({}, "/ttech/data/team.json");
   const team = request.team;
 
   function index(i: number): number {

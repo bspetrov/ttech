@@ -15,7 +15,7 @@ interface RequestObject {
   counter: CountItem[];
 }
 const ProjectCounter: React.FC<Props> = ({ type }: { type: boolean }) => {
-  const request: RequestObject = useGetData({}, "/data/counter.json");
+  const request: RequestObject = useGetData({}, "/ttech/data/counter.json");
   const counter = request.counter;
 
   return (

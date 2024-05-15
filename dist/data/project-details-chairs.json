@@ -2,9 +2,9 @@
   "details": {
     "id": "chairs",
     "images": [
-      "/assets/img/project/chair-1.JPG",
-      "/assets/img/project/chair-2.JPG",
-      "/assets/img/project/chair-3.JPG"
+      "/ttech/assets/img/project/chair-1.JPG",
+      "/ttech/assets/img/project/chair-2.JPG",
+      "/ttech/assets/img/project/chair-3.JPG"
     ],
     "serviceType": "Дървообработка",
     "category": "Столове",

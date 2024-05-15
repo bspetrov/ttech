@@ -12,7 +12,7 @@ interface RequestObject {
 }
 
 const Promo: React.FC = () => {
-  const request: RequestObject = useGetData({}, "/data/promo.json");
+  const request: RequestObject = useGetData({}, "/ttech/data/promo.json");
   const promo = request.promo;
   return (
     <React.Fragment>

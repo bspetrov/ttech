@@ -15,7 +15,7 @@ const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
         </div>
         <div className="logo-side mb-30">
           <a href="index.html" className="site-logo-2">
-            <img src="/assets/img/logo-white.png" alt="" />
+            <img src="/ttech/assets/img/logo-white.png" alt="" />
           </a>
         </div>
         <div className="side-info">

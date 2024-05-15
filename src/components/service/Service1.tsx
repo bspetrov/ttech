@@ -20,7 +20,7 @@ interface RequestObject {
 }
 
 const Service1: React.FC = () => {
-  const request: RequestObject = useGetData({}, "/data/services.json");
+  const request: RequestObject = useGetData({}, "/ttech/data/services.json");
   const services = request.services;
 
   return (

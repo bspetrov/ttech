@@ -19,8 +19,8 @@ const Project1: React.FC<Props> = ({ type }: { type: boolean }) => {
   const request: RequestObject = useGetData(
     {},
     currentPath === "woodwork"
-      ? "/data/woodwork-projects.json"
-      : "/data/metalwork-projects.json"
+      ? "/ttech/data/woodwork-projects.json"
+      : "/ttech/data/metalwork-projects.json"
   );
   const projects = request.projects;
 

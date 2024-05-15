@@ -25,7 +25,7 @@ const ContactInfo: React.FC = () => {
             <div className="col-xl-4 col-lg-4 col-md-6 col-12">
               <div className="single-contact-info">
                 <div className="contact-icon">
-                  <img src="/assets/img/contact/1.png" alt="" />
+                  <img src="/ttech/assets/img/contact/1.png" alt="" />
                 </div>
                 <p>{contact?.street}</p>
               </div>
@@ -33,7 +33,7 @@ const ContactInfo: React.FC = () => {
             <div className="col-xl-4 col-lg-4 col-md-6 col-12">
               <div className="single-contact-info">
                 <div className="contact-icon">
-                  <img src="/assets/img/contact/2.png" alt="" />
+                  <img src="/ttech/assets/img/contact/2.png" alt="" />
                 </div>
                 <p>{contact?.mail1}</p>
                 <p>{contact?.mail2}</p>
@@ -42,7 +42,7 @@ const ContactInfo: React.FC = () => {
             <div className="col-xl-4 col-lg-4 col-md-6 col-12">
               <div className="single-contact-info">
                 <div className="contact-icon">
-                  <img src="/assets/img/contact/1.png" alt="" />
+                  <img src="/ttech/assets/img/contact/1.png" alt="" />
                 </div>
                 <p>{contact?.mobile1}</p>
                 <p>{contact?.mobile2}</p>

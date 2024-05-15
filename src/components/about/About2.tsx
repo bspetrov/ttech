@@ -12,7 +12,7 @@ const About2: React.FC = () => {
               data-wow-delay=".3s"
             >
               <div className="info-img">
-                <img src="/assets/img/about/about-1.png" alt="" />
+                <img src="/ttech/assets/img/about/about-1.png" alt="" />
                 <div className="founded-year">
                   <i className="flaticon-factory">Founded in 1995</i>
                 </div>

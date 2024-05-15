@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
               <a href="/" className="logo">
-                <img src="/assets/img/logo-white.png" alt="industrify-logo" />
+                <img src="/ttech/assets/img/logo-white.png" alt="industrify-logo" />
               </a>
             </div>
             <div className="col-lg-2 col-md-6">

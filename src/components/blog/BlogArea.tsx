@@ -12,7 +12,7 @@ const BlogArea: React.FC = () => {
           <div className="row">
             <div className="col-lg-8">
               <div className="single-blog-wrap">
-                <img src="/assets/img/blog/single-blog.jpg" alt="" />
+                <img src="/ttech/assets/img/blog/single-blog.jpg" alt="" />
                 <div className="blog-meta">
                   <span>
                     <i className="las la-user"></i>Admin
@@ -66,14 +66,14 @@ const BlogArea: React.FC = () => {
                   <div className="col-lg-6">
                     <img
                       className="blog-inside"
-                      src="/assets/img/blog/3.jpg"
+                      src="/ttech/assets/img/blog/3.jpg"
                       alt=""
                     />
                   </div>
                   <div className="col-lg-6">
                     <img
                       className="blog-inside"
-                      src="/assets/img/blog/4.jpg"
+                      src="/ttech/assets/img/blog/4.jpg"
                       alt=""
                     />
                   </div>
