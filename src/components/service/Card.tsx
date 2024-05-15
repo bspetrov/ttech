@@ -1,6 +1,5 @@
 import React from "react";
 import { ServiceItem } from "./Service1";
-import { Link } from "react-router-dom";
 
 interface Props {
   service: ServiceItem;

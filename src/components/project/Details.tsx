@@ -20,7 +20,7 @@ const Details: React.FC = () => {
   const routePath = location.pathname.split("/");
   const currentPath = routePath[2];
   let request: undefined | RequestObject;
-  let title: string;
+  let title: string = "";
 
   if (currentPath === "table-tops") {
     request = useGetData({}, "/data/project-details-table-tops.json");
@@ -49,7 +49,7 @@ const Details: React.FC = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h3>{title}</h3>
+              {title && <h3>{title}</h3>}
               <p>
                 Нашите екип изработва всяка поръчка с грижа и внимание към
                 детайла, използвайки най-качествените видове дърво. В нашия
