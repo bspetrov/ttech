@@ -1,0 +1,53 @@
+{
+  "testimonials": [
+    {
+      "id": "t1",
+      "img": "/assets/img/testimonial/1.jpg",
+      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
+      "name": "Albert Krish",
+      "rank": "Social Activist"
+    },
+    {
+      "id": "t2",
+      "img": "/assets/img/testimonial/2.jpg",
+      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
+      "name": "Bill Lorris",
+      "rank": "Business Man"
+    },
+    {
+      "id": "t3",
+      "img": "/assets/img/testimonial/3.jpg",
+      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
+      "name": "Josh Batlar",
+      "rank": "Factory Foreman"
+    },
+    {
+      "id": "t4",
+      "img": "/assets/img/testimonial/4.jpg",
+      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
+      "name": "Joe Root",
+      "rank": "Industry Supervisor"
+    },
+    {
+      "id": "t5",
+      "img": "/assets/img/testimonial/5.jpg",
+      "comment": "There are some reason lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, officia eligendi quos best choice similique autem laborum repellendus aliquam, support all molestiae tempora quod esse sed. amazing service. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quo modi architecto nobis dignissimos sed.",
+      "name": "Ryans Gigs",
+      "rank": "CEO-Linking Park"
+    },
+    {
+      "id": "t6",
+      "img": "/assets/img/testimonial/6.jpg",
+      "comment": "There are some reason lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, officia eligendi quos best choice similique autem laborum repellendus aliquam, support all molestiae tempora quod esse sed. amazing service. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quo modi architecto nobis dignissimos sed.",
+      "name": "Pual Scholes",
+      "rank": "CEO & Founder-Capricorn"
+    },
+    {
+      "id": "t7",
+      "img": "/assets/img/testimonial/7.jpg",
+      "comment": "There are some reason lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, officia eligendi quos best choice similique autem laborum repellendus aliquam, support all molestiae tempora quod esse sed. amazing service. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quo modi architecto nobis dignissimos sed.",
+      "name": "Eric Cantona",
+      "rank": "Manager-Beackon"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+
+.counter-area {
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+	z-index: -1;
+	@media #{$xs} {
+		height: 700px;
+	}
+}
+
+.fact-icon i:before {
+	font-size: 40px;
+	line-height: 35px;
+	color: #fff;
+	margin: 20px 0;
+	display: inline-block;
+	background: #F35C27;
+	padding: 25px;
+	border-radius: 5px;
+}
+
+.single-counter-box {
+	text-align: center;
+	@media #{$xs} {
+		margin-bottom: 100px;
+	}
+	span {
+		font-size: 140px;
+		font-weight: 600;
+		color: #a3a7ad;
+		margin: 30px 0 10px;
+		opacity: .1;
+		position: absolute;
+		left: 50px;
+		top: 50%;
+		transform: translate(-50px, -50px);
+		width: 100%;
+		@media #{$xs} {
+			font-size: 100px;
+			transform: translate(-50px, 0);
+		}
+	}
+	h6 {
+		color: #0B0D26;
+		font-size: 20px;
+		font-weight: 500;
+		@media #{$xs} {
+			font-size: 16px;
+			margin-top: 25px;
+		}
+		
+	}
+	p {
+		font-size: 40px;
+		color: #fff;
+	}
+}
+
+.single-counter-box.two .counter-number span {
+	color: #616366;
+}

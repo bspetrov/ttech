@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "id": "machine-elements",
+      "title": "Машинни елементи"
+    },
+    {
+      "id": "others",
+      "title": "Други"
+    }
+  ]
+}

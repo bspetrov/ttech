@@ -1,0 +1,68 @@
+{
+  "menu": [
+    {
+      "id": "m1",
+      "text": "Начало",
+      "link": "/"
+    },
+    {
+      "id": "m2",
+      "text": "Услуги",
+      "link": "/services"
+    },
+    {
+      "id": "m3",
+      "text": "Металообработка",
+      "link": "/services",
+      "dropdown": [
+        {
+          "id": "c1",
+          "text": "Машинни елементи",
+          "link": "/projects"
+        },
+        {
+          "id": "c2",
+          "text": "Други",
+          "link": "/project/p1"
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "text": "Дървообработка",
+      "link": "/services",
+      "dropdown": [
+        {
+          "id": "c1",
+          "text": "Плотове за маси",
+          "link": "/projects"
+        },
+        {
+          "id": "c2",
+          "text": "Крака за маси",
+          "link": "/project/p1"
+        },
+        {
+          "id": "c3",
+          "text": "Готови маси",
+          "link": "/project/p1"
+        },
+        {
+          "id": "c4",
+          "text": "Столове",
+          "link": "/project/p1"
+        },
+        {
+          "id": "c5",
+          "text": "Други",
+          "link": "/project/p1"
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "text": "За нас",
+      "link": "/services"
+    }
+  ]
+}
