@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import {
   Home1,
   Home2,
@@ -17,7 +17,7 @@ import {
 import { ErrorPage } from "../components";
 import { Default } from "../Layout";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     element: <Default />,
