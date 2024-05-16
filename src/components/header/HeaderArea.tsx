@@ -95,6 +95,14 @@ const HeaderArea: React.FC = () => {
                                 </Link>
                               </li>
                               <li>
+                                <Link to="/project/car-elements">
+                                  Авто елементи
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="/project/specials">Специални</Link>
+                              </li>
+                              <li>
                                 <Link to="/project/others">Други</Link>
                               </li>
                             </ul>
