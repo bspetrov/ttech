@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Service1,
-  Team1,
   ChooseUs,
   HeaderArea,
   Breadcrumb,
