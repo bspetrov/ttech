@@ -13,56 +13,66 @@
     {
       "id": "m3",
       "text": "Металообработка",
-      "link": "/services",
+      "link": "/projects/metalwork",
       "dropdown": [
         {
           "id": "c1",
           "text": "Машинни елементи",
-          "link": "/projects"
+          "link": "/project/machine-elements"
         },
         {
           "id": "c2",
+          "text": "Авто елементи",
+          "link": "/project/car-elements"
+        },
+        {
+          "id": "c3",
+          "text": "Специални",
+          "link": "/project/specials"
+        },
+        {
+          "id": "c4",
           "text": "Други",
-          "link": "/project/p1"
+          "link": "/project/others"
         }
       ]
     },
     {
       "id": "m4",
       "text": "Дървообработка",
-      "link": "/services",
+      "link": "/projects/woodwork",
       "dropdown": [
         {
           "id": "c1",
           "text": "Плотове за маси",
-          "link": "/projects"
+          "link": "/project/table-tops"
         },
         {
           "id": "c2",
           "text": "Крака за маси",
-          "link": "/project/p1"
+          "link": "/project/table-legs"
         },
         {
           "id": "c3",
           "text": "Готови маси",
-          "link": "/project/p1"
+          "link": "/project/finished-tables"
         },
         {
           "id": "c4",
           "text": "Столове",
-          "link": "/project/p1"
+          "link": "/project/chairs"
         },
         {
           "id": "c5",
           "text": "Други",
-          "link": "/project/p1"
+          "link": "/project/others"
         }
       ]
     },
     {
       "id": "m5",
       "text": "За нас",
-      "link": "/services"
+      "link": "/about"
     }
   ]
 }
