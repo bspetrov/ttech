@@ -5,6 +5,14 @@
       "title": "Машинни елементи"
     },
     {
+      "id": "auto-elements",
+      "title": "Авто елементи"
+    },
+    {
+      "id": "machine-elements",
+      "title": "Специални"
+    },
+    {
       "id": "others",
       "title": "Други"
     }

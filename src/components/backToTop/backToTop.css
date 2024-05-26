@@ -49,7 +49,7 @@
 }
 .progress__circle {
   fill: transparent;
-  stroke: #f35c27;
+  stroke: #0b0d26;
   stroke-width: 4px;
   box-sizing: border-box;
   -webkit-transition: all 200ms linear;

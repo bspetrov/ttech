@@ -1,0 +1,16 @@
+{
+    "details": {
+      "id": "finished-tables",
+      "images": [
+        "/assets/img/project/machine_specials_1.jpeg",
+        "/assets/img/project/machine_specials_2.jpeg",
+        "/assets/img/project/machine_specials_3.jpeg",
+        "/assets/img/project/machine_specials_4.jpeg"
+      ],
+      "serviceType": "Металообработка",
+      "category": "Специални",
+      "time": "2/3 седмици",
+      "materials": ["civil", "welding"]
+    }
+  }
+  

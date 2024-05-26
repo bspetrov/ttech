@@ -3,23 +3,23 @@
     {
       "id": "t1",
       "img": "/assets/img/testimonial/1.jpg",
-      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
-      "name": "Albert Krish",
-      "rank": "Social Activist"
+      "comment": "Кратка информация за фирма",
+      "name": "Фирма",
+      "rank": "Сфера"
     },
     {
       "id": "t2",
       "img": "/assets/img/testimonial/2.jpg",
-      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
-      "name": "Bill Lorris",
-      "rank": "Business Man"
+      "comment": "Кратка информация за фирма",
+      "name": "Фирма 2",
+      "rank": " Сфера"
     },
     {
       "id": "t3",
       "img": "/assets/img/testimonial/3.jpg",
-      "comment": "The magic formula that successful businesses have discovered is to treat customers ",
-      "name": "Josh Batlar",
-      "rank": "Factory Foreman"
+      "comment": "Кратка информация за фирма",
+      "name": "Фирма 3",
+      "rank": "Сфера"
     },
     {
       "id": "t4",

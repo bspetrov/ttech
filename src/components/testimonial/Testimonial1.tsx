@@ -29,10 +29,9 @@ const Testimonial1: React.FC = () => {
             <div className="row">
               <div className="col-lg-12 text-center">
                 <div className="section-title">
-                  <h6>Testimonial</h6>
+                  <h6>Партньори и клиенти</h6>
                   <h2>
-                    Happy <b> Client </b>Says <br />
-                    About Us
+                    Те ни се довериха, направете го и вие!
                   </h2>
                 </div>
               </div>

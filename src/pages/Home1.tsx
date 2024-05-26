@@ -21,7 +21,7 @@ const Home1: React.FC = () => {
       <HeroArea type={true} />
       <Promo />
       <Service1 />
-      {/* <Project1 type={false} /> */}
+      <Project1 type={false} />
     </React.Fragment>
   );
 };

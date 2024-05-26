@@ -1,0 +1,17 @@
+{
+    "details": {
+      "id": "finished-tables",
+      "images": [
+        "/assets/img/project/machine_1.jpeg",
+        "/assets/img/project/machine_2.jpeg",
+        "/assets/img/project/machine_3.jpeg",
+        "/assets/img/project/machine_4.jpeg",
+        "/assets/img/project/machine_5.jpeg"
+      ],
+      "serviceType": "Металообработка",
+      "category": "Машинни елементи",
+      "time": "2/3 седмици",
+      "materials": ["civil", "welding"]
+    }
+  }
+  

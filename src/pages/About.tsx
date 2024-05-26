@@ -19,7 +19,7 @@ const About: React.FC = () => {
       <ContactSection />
       <Service1 />
       <ChooseUs />
-      {/* <Clients /> */}
+      <Clients />
       {/* <Team1 type={false} /> */}
     </React.Fragment>
   );

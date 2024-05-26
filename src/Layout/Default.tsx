@@ -17,7 +17,7 @@ const Main: React.FC = () => {
       <Preloader />
       <Outlet context={[scrolled]} />
       <Footer />
-      {/* <FooterBottom /> */}
+      <FooterBottom />
       <BackToTop />
     </ScrollToTop>
   );

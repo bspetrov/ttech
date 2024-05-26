@@ -54,7 +54,16 @@ const HeroArea: React.FC<Props> = ({ type }) => {
                     <div
                       className="col-lg-12 wow fadeInUp animated"
                       data-wow-delay=".2s"
-                    ></div>
+                    >
+                      <div className="section-title col-12 col-lg-6">
+                        <h1>
+                          Tenev Tech
+                          <br/>
+                          <b></b>
+                        </h1>
+                        <p>Нашият екип от опитни и всеотдайни професионалисти е винаги готов да достави и произведе качество - навреме!</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

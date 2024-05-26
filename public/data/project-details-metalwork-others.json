@@ -1,0 +1,17 @@
+{
+    "details": {
+      "id": "finished-tables",
+      "images": [
+        "/assets/img/project/finished-table-1.JPG",
+        "/assets/img/project/finished-table-2.JPG",
+        "/assets/img/project/finished-table-3.JPG",
+        "/assets/img/project/finished-table-4.JPG",
+        "/assets/img/project/finished-table-5.JPG"
+      ],
+      "serviceType": "Металообработка",
+      "category": "Други",
+      "time": "2/3 седмици",
+      "materials": ["civil", "welding"]
+    }
+  }
+  

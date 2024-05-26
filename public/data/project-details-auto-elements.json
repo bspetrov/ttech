@@ -1,0 +1,24 @@
+{
+    "details": {
+      "id": "finished-tables",
+      "images": [
+        "/assets/img/project/auto_1.jpeg",
+        "/assets/img/project/auto_2.jpeg",
+        "/assets/img/project/auto_3.jpeg",
+        "/assets/img/project/auto_4.jpeg",
+        "/assets/img/project/auto_5.jpeg",
+        "/assets/img/project/auto_6.jpeg",
+        "/assets/img/project/auto_7.jpeg",
+        "/assets/img/project/auto_8.jpeg",
+        "/assets/img/project/auto_9.jpeg",
+        "/assets/img/project/auto_10.jpeg",
+        "/assets/img/project/auto_11.jpeg",
+        "/assets/img/project/auto_12.jpeg"
+      ],
+      "serviceType": "Металообработка",
+      "category": "Авто елементи",
+      "time": "2/3 седмици",
+      "materials": ["civil", "welding"]
+    }
+  }
+  

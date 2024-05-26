@@ -32,12 +32,21 @@ const Details: React.FC = () => {
     request = useGetData({}, "/data/project-details-finished-tables.json");
     title = "Готови маси";
   } else if (currentPath === "machine-elements") {
-    request = useGetData({}, "/data/project-details.json");
+    request = useGetData({}, "/data/project-details-machine-elements.json");
     title = "Машинни елементи";
+  } else if (currentPath === "auto-elements") {
+    request = useGetData({}, "/data/project-details-auto-elements.json");
+    title = "Авто елементи";
+  } else if (currentPath === "specials") {
+    request = useGetData({}, "/data/project-details-specials.json");
+    title = "Специални";
+  } else if (currentPath === "metalwork-others") {
+    request = useGetData({}, "/data/project-details-metalwork-others.json");
+    title = "Други";
   } else if (currentPath === "chairs") {
     request = useGetData({}, "/data/project-details-chairs.json");
     title = "Столове";
-  } else if (currentPath === "others") {
+  } else if (currentPath === "woodwork-others") {
     request = useGetData({}, "/data/project-details-woodwork-others.json");
     title = "Други";
   }

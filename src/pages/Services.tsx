@@ -1,7 +1,6 @@
 import React from "react";
 import {
   HeaderArea,
-  ProjectCounter,
   Testimonial1,
   Service3,
   Breadcrumb,
@@ -14,7 +13,7 @@ const Services: React.FC = () => {
       <Breadcrumb />
       <Service3 />
       {/* <ProjectCounter type={true} /> */}
-      {/* <Testimonial1 /> */}
+      <Testimonial1 />
     </React.Fragment>
   );
 };

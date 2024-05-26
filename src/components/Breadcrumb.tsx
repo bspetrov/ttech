@@ -24,6 +24,12 @@ function generateBreadcrumbs(routePath: string): string {
     return "Готови маси";
   } else if (route.length > 2 && route[2] === "machine-elements") {
     return "Машинни елементи";
+  } else if (route.length > 2 && route[2] === "metalwork-others") {
+    return "Други";
+  } else if (route.length > 2 && route[2] === "auto-elements") {
+    return "Авто елементи";
+  } else if (route.length > 2 && route[2] === "specials") {
+    return "Специални";
   } else if (route.length > 2 && route[2] === "others") {
     return "Други";
   }

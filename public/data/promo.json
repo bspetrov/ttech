@@ -3,19 +3,19 @@
     {
       "id": "p1",
       "heading": "Проектиране",
-      "title": "Industry is main lorem ipsum dolor amet, consectetur adipisicing elit.",
+      "title": "Проектираме детайли, машинни елементи, крепежи и всякакви необходими детайли по нужда на клиент.",
       "icon": "flaticon-factory"
     },
     {
       "id": "p2",
       "heading": "Изработка",
-      "title": "Industry is main lorem ipsum dolor amet, consectetur adipisicing elit.",
+      "title": "Изработване на детайли чрез подходящата за вас машина.",
       "icon": "flaticon-cogwheel"
     },
     {
       "id": "p3",
       "heading": "Резултат",
-      "title": "Industry is main lorem ipsum dolor amet, consectetur adipisicing elit.",
+      "title": "Полученият детайл се преглежда дали е според необходимите параметри и изисквания.",
       "icon": "flaticon-maintenance"
     }
   ]
