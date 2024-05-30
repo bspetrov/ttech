@@ -20,8 +20,8 @@ const Details: React.FC = () => {
   const routePath = location.pathname.split("/");
   const currentPath = routePath[2];
   let request: undefined | RequestObject;
-  let title: string;
-  let topic: string;
+  let title: string = "";
+  let topic: string = "";
 
   if (currentPath === "table-tops") {
     request = useGetData({}, "/data/project-details-table-tops.json");

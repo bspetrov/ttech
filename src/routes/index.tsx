@@ -4,7 +4,6 @@ import {
   Home2,
   About,
   Contact,
-  Projects,
   Team,
   Services,
   ProjectDetails,

@@ -4,13 +4,8 @@ import {
   HeaderArea,
   HeroArea,
   Promo,
-  About1,
   Service1,
   Project1,
-  Clients,
-  Testimonial1,
-  ProjectCounter,
-  Blog1,
 } from "../components";
 
 const Home1: React.FC = () => {

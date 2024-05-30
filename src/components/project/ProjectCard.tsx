@@ -7,7 +7,7 @@ interface Props {
   i: number;
 }
 
-const ProjectCard: React.FC<Props> = ({ project, i }: Props) => {
+const ProjectCard: React.FC<Props> = ({ project }: Props) => {
 
   let bgPic = '';
 
