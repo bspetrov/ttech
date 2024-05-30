@@ -9,11 +9,30 @@ interface Props {
 
 const ProjectCard: React.FC<Props> = ({ project, i }: Props) => {
 
+  let bgPic = '';
+
+  if (project.title === "Машинни елементи") {
+    bgPic = 'project-bg'
+  } else if (project.title === "Специални") {
+    bgPic = "project-bg-3"
+  } else if (project.title === "Авто елементи") {
+    bgPic = "project-bg-2"
+  } else if (project.title == "Други" && project.id == 'metalwork-others') {
+    bgPic = "project-bg-4"
+  } else if (project.title == "Други" && project.id == 'woodwork-others') {
+    bgPic = "project-bg-8"
+  } else if (project.title == "Плотове за маси") {
+    bgPic = "project-bg-5"
+  } else if (project.title == "Крака за маси") {
+    bgPic = "project-bg-6"
+  } else if (project.title == "Готови маси") {
+    bgPic = "project-bg-7"
+  }
+
+
   return (
     <div
-      className={`single-project-item bg-cover ${
-        i === 0 ? "project-bg" : `project-bg-${i + 1}`
-      }`}
+      className={`single-project-item bg-cover ${bgPic}`}
     >
       <div className="project-inner">
         <Link to={`/project/${project.id}`} className="project-icon">

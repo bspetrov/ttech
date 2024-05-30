@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const About1: React.FC = () => {
   return (
@@ -11,7 +10,7 @@ const About1: React.FC = () => {
             data-wow-delay=".6s"
           >
             <div className="about-img">
-              <img src="/assets/img/about/about.jpg" alt="" />
+              <img src="/assets/img/about/about.png" alt="" />
             </div>
           </div>
           <div

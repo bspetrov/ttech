@@ -30,7 +30,7 @@ function generateBreadcrumbs(routePath: string): string {
     return "Авто елементи";
   } else if (route.length > 2 && route[2] === "specials") {
     return "Специални";
-  } else if (route.length > 2 && route[2] === "others") {
+  } else if (route.length > 2 && (route[2] === "woodwork-others" || route[2] === "metalwork-others")) {
     return "Други";
   }
 

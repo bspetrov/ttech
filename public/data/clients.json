@@ -2,23 +2,15 @@
   "clients": [
     {
       "id": "c1",
-      "img": "/assets/img/clients/1.png"
+      "img": "/assets/img/clients/logo_1.png"
     },
     {
       "id": "c2",
-      "img": "/assets/img/clients/2.png"
+      "img": "/assets/img/clients/logo_2.jpg"
     },
     {
       "id": "c3",
-      "img": "/assets/img/clients/3.png"
-    },
-    {
-      "id": "c4",
-      "img": "/assets/img/clients/4.png"
-    },
-    {
-      "id": "c5",
-      "img": "/assets/img/clients/5.png"
+      "img": "/assets/img/clients/logo_3.png"
     }
   ]
 }

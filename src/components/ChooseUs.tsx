@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import ReactPlayer from "react-player";
 import Modal from "./modal/Modal";
 
 const ChooseUs: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
+  const [playing, setPlaying] = useState(false);
   const [getSrc, _] = useState("https://www.youtube.com/embed/SZEflIVnhH8");
   return (
     <React.Fragment>
@@ -22,15 +23,19 @@ const ChooseUs: React.FC = () => {
             </div>
             <div className="col-xl-8 col-lg-8">
               <div className="choose-us-wrap">
-                <img src="/assets/img/choose-us.jpg" alt="" />
+                <div className="video" onClick={() => setPlaying((p) => !p)}>
+                  <ReactPlayer url="/assets/video/promo.mp4" width={1101} height={528} playing={playing}/>
+                </div>
+                {!playing && 
                 <div className="pop-up-video">
                   <div
                     className="video-play-btn"
-                    onClick={() => setShowModal((p) => !p)}
+                    onClick={() => setPlaying((p) => !p)}
                   >
                     <i className="las la-play"></i>
                   </div>
                 </div>
+                }
               </div>
             </div>
           </div>
