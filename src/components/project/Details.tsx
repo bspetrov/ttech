@@ -64,7 +64,7 @@ const Details: React.FC = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h3>{title}</h3>
+              {title && <h3>{title}</h3>}
               <p>
                 Нашите екип изработва всяка поръчка с грижа и внимание към
                 детайла, използвайки най-качествените видове дърво. В нашия

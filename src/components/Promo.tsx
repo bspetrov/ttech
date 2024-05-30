@@ -1,7 +1,5 @@
 import React from "react";
 import useGetData from "../hooks/useGetData";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPenRuler } from "@fortawesome/free-solid-svg-icons";
 
 interface PromoItem {
   id: string;

@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+<<<<<<< HEAD
 import ReactPlayer from "react-player";
+=======
+>>>>>>> 96df595695215013acb104e831c0dec29d692add
 import Modal from "./modal/Modal";
 
 const ChooseUs: React.FC = () => {
