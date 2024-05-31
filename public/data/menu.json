@@ -13,7 +13,7 @@
     {
       "id": "m3",
       "text": "Металообработка",
-      "link": "/services",
+      "link": "/projects/metalwork",
       "dropdown": [
         {
           "id": "c1",
@@ -28,7 +28,7 @@
         {
           "id": "c3",
           "text": "Специални",
-          "link": "/project/machine-specials"
+          "link": "/project/specials"
         },
         {
           "id": "c4",
@@ -40,7 +40,7 @@
     {
       "id": "m4",
       "text": "Дървообработка",
-      "link": "/services",
+      "link": "/projects/woodwork",
       "dropdown": [
         {
           "id": "c1",

@@ -32,7 +32,8 @@ const Menu = ({ menu, setShowNav }: MenuType) => {
           {menu?.dropdown?.length > 0 &&
             menu?.dropdown?.map((d) => (
               <li key={d?.id}>
-                <Link to={d?.link}>{d?.text}</Link>
+                {/* <Link to={d?.link}>{d?.text}</Link> */}
+                <a href={d?.link}>{d?.text}</a>
               </li>
             ))}
         </ul>
