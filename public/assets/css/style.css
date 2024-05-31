@@ -3831,6 +3831,7 @@ ul.team-social li a {
 
 .breadcrumb-area {
   background: url(/assets/img/breadcrumb/bcumb.jpg);
+  background-size: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
