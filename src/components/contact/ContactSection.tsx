@@ -1,6 +1,33 @@
-import React from "react";
+import React, { ChangeEvent, FormEvent } from "react";
+import { useState } from "react";
+import { sendEmail } from "../../utils/sendEmail";
+
 
 const ContactSection: React.FC = () => {
+  const [details, setDetails] = useState({
+    name: "",
+    subject: "",
+    message: "",
+    from_email: "",
+  });
+
+  const handleDetailsChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value} = event.target;
+
+    setDetails((prevDetails) => {
+      return {
+        ...prevDetails,
+        [name]: value,
+      }
+    })
+  };
+
+  const handleSend = (event: FormEvent) => {
+    event?.preventDefault()
+    sendEmail(details)
+  };
+
+
   return (
     <React.Fragment>
       <div className="contact-section section-padding">
@@ -24,24 +51,26 @@ const ContactSection: React.FC = () => {
                 <div className="section-title">
                   <h2 className="text-white">Свържете се с нас...</h2>
                 </div>
-                <form>
+                <form onSubmit={handleSend}>
                   <div className="row">
                     <div className="col-md-6">
                       <label>Име*</label>
-                      <input type="text" placeholder="Вашите имена" />
+                      <input type="text" placeholder="Вашите имена" name="name" value={details.name} onChange={handleDetailsChange}/>
                     </div>
                     <div className="col-md-6">
                       <label>Email Address*</label>
-                      <input type="email" placeholder="E-mail Address" />
+                      <input type="email" name="from_email" placeholder="E-mail Address" value={details.from_email} onChange={handleDetailsChange}/>
                     </div>
                     <div className="col-12">
                       <label>Тема*</label>
-                      <input type="text" placeholder="Тема" />
+                      <input type="text" placeholder="Тема" name="subject" value={details.subject} onChange={handleDetailsChange} />
                     </div>
                     <div className="col-12">
                       <label>Съобщение*</label>
                       <textarea
                         name="message"
+                        value={details.message}
+                        onChange={handleDetailsChange}
                         id="message"
                         cols={30}
                         rows={10}

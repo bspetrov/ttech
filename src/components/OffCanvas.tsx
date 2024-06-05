@@ -41,7 +41,7 @@ const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
               </span>
             </p>
             <p>
-              <i className="las la-phone"></i> <span>+18-4675826</span>
+              <i className="las la-phone"></i> <span>+359 896 874 653</span>
             </p>
             <p>
               <i className="las la-envelope-open"></i>

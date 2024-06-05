@@ -6,7 +6,6 @@ interface Contact {
   mail1: string;
   mail2: string;
   mobile1: string;
-  mobile2: string;
 }
 
 interface RequestObject {
@@ -45,7 +44,6 @@ const ContactInfo: React.FC = () => {
                   <img src="/assets/img/contact/1.png" alt="" />
                 </div>
                 <p>{contact?.mobile1}</p>
-                <p>{contact?.mobile2}</p>
               </div>
             </div>
           </div>

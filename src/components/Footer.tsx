@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
                 <a href="#">tenevtech@gmail.com</a>
               </div>
               <div className="phone-number">
-                <p>+18-4675826</p>
+                <p>+359 896 874 653</p>
               </div>
             </div>
             <div className="col-lg-2 offset-lg-1 col-md-6 com-sm-12">
