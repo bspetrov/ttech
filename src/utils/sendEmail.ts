@@ -7,7 +7,7 @@ export type Details =  {
   message: string
 }
 
-const endEmail = async (details: Details) => {
+const sendEmail = async (details: Details) => {
     emailjs.init(import.meta.env.VITE_EMAIL_USER_ID);
     await emailjs
       .send(

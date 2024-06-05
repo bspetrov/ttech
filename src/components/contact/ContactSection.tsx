@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEvent } from "react";
+import React, { FormEvent } from "react";
 import { useState } from "react";
 import { sendEmail } from "../../utils/sendEmail";
 
